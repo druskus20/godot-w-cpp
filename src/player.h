@@ -2,12 +2,12 @@
 #define PLAYER_H
 
 #include <Godot.hpp>
-#include <KinematicBody2D.hpp>
+#include <KinematicBody.hpp>
 
 namespace godot {
 
-class Player : public KinematicBody2D {
-  GODOT_CLASS(Player, KinematicBody2D)
+class Player : public KinematicBody {
+  GODOT_CLASS(Player, KinematicBody)
 
 private:
   float time_passed;
@@ -21,7 +21,7 @@ public:
   void _init(); // our initializer called by Godot
 
   void _process(float delta);
-  void _process2(float delta);
+  void _physics_process(float delta);
 };
 
 } // namespace godot
