@@ -1,0 +1,48 @@
+[
+  {
+    "arguments": [
+      "/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-fPIC",
+      "-g3",
+      "-Og",
+      "-fPIC",
+      "-I.",
+      "-Igodot-cpp/godot-headers",
+      "-Igodot-cpp/include",
+      "-Igodot-cpp/include/core",
+      "-Igodot-cpp/include/gen",
+      "-Isrc",
+      "-o",
+      "src/gdlibrary.os",
+      "src/gdlibrary.cpp"
+    ],
+    "directory": "/home/druskus/code/godot-w-cpp",
+    "file": "/home/druskus/code/godot-w-cpp/src/gdlibrary.cpp",
+    "output": "/home/druskus/code/godot-w-cpp/src/gdlibrary.os"
+  },
+  {
+    "arguments": [
+      "/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-fPIC",
+      "-g3",
+      "-Og",
+      "-fPIC",
+      "-I.",
+      "-Igodot-cpp/godot-headers",
+      "-Igodot-cpp/include",
+      "-Igodot-cpp/include/core",
+      "-Igodot-cpp/include/gen",
+      "-Isrc",
+      "-o",
+      "src/rogue.os",
+      "src/rogue.cpp"
+    ],
+    "directory": "/home/druskus/code/godot-w-cpp",
+    "file": "/home/druskus/code/godot-w-cpp/src/rogue.cpp",
+    "output": "/home/druskus/code/godot-w-cpp/src/rogue.os"
+  }
+]
