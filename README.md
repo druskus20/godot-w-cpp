@@ -1,5 +1,5 @@
 # godot-w-cpp
-Godot with C++ shenannigans
+Godot with C++ shenanigans
 
 ```sh
 scons -c platform=linux
